@@ -12,6 +12,10 @@ our $scenario = {
     participants => [
         {
             fcall_template => 'Parse::CommandLine::parse_command_line(<cmdline>)',
+            result_is_list => 1,
+        },
+        {
+            fcall_template => 'Complete::Bash::parse_cmdline(<cmdline>, 0)',
         },
     ],
 
