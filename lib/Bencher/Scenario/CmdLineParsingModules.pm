@@ -29,7 +29,13 @@ our $scenario = {
         {
             name => 'cmd-only',
             args => {
-                cmdline => q[],
+                cmdline => q[somecmd],
+            },
+        },
+        {
+            name => '2args-simple',
+            args => {
+                cmdline => q[somecmd arg1 arg-two],
             },
         },
         {
