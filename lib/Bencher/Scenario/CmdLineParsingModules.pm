@@ -49,10 +49,3 @@ our $scenario = {
 
 1;
 # ABSTRACT:
-
-=head1 SYNOPSIS
-
- % bencher -m CmdLineParsingModules [other options]...
-
-
-=head1 SEE ALSO
