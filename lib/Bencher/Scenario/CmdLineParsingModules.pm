@@ -9,6 +9,9 @@ use warnings;
 
 our $scenario = {
     summary => 'Benchmark command-line parsing modules',
+    modules => {
+        'Complete::Bash' => {version=>0.27},
+    },
     participants => [
         {
             fcall_template => 'Parse::CommandLine::parse_command_line(<cmdline>)',
