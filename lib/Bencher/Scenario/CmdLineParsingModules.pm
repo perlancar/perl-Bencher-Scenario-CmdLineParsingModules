@@ -20,6 +20,10 @@ our $scenario = {
         {
             fcall_template => 'Complete::Bash::parse_cmdline(<cmdline>, 0)',
         },
+        {
+            fcall_template => 'Text::ParseWords::shellwords(<cmdline>)',
+            result_is_list => 1,
+        },
     ],
 
     datasets => [
