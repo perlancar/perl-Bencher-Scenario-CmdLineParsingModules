@@ -24,6 +24,10 @@ our $scenario = {
             fcall_template => 'Text::ParseWords::shellwords(<cmdline>)',
             result_is_list => 1,
         },
+        {
+            fcall_template => 'Parse::CommandLine::Regexp::parse_command_line(<cmdline>)',
+            result_is_list => 1,
+        },
     ],
 
     datasets => [
