@@ -1,11 +1,13 @@
 package Bencher::Scenario::CmdLineParsingModules;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 our $scenario = {
     summary => 'Benchmark command-line parsing modules',
@@ -60,3 +62,7 @@ our $scenario = {
 
 1;
 # ABSTRACT:
+
+=head1 append:SEE ALSO
+
+L<Acme::CPANModules::Parse::UnixShellCommandLine>
