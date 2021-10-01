@@ -12,7 +12,7 @@ use warnings;
 our $scenario = {
     summary => 'Benchmark command-line parsing modules',
     modules => {
-        'Complete::Bash' => {version=>0.27},
+        'Complete::Bash' => {version=>0.333},
     },
     participants => [
         {
@@ -63,6 +63,6 @@ our $scenario = {
 1;
 # ABSTRACT:
 
-=head1 append:SEE ALSO
+=head1 SEE ALSO
 
 L<Acme::CPANModules::Parse::UnixShellCommandLine>
