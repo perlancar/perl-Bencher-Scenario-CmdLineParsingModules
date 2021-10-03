@@ -1,3 +1,10 @@
+0.081   2021-10-01  Released-By: PERLANCAR; Urgency: low
+
+	- No functional changes.
+
+	- [doc] Mention Acme::CPANModules::Parse::UnixShellCommandLine.
+
+
 0.080   2019-02-10  Released-By: PERLANCAR
 
 	- Add participant: Parse::CommandLine::Regexp.
